@@ -1,0 +1,23 @@
+body {
+    background-color: black;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: darkgray;
+    padding: 10px;
+}
+
+.box {
+    width: calc(33.33333% - 20px);
+    height: 200px;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#bigBlock {
+    width: calc(66.666666% - 20px);
+}
